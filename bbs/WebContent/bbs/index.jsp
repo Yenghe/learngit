@@ -100,8 +100,8 @@ String path = request.getContextPath();
  		
 		<DIV class=legend><LABEL><IMG alt=有新帖的版块 
 		src="<%=path %>/images/forum_new.gif">有新帖的版块</LABEL><LABEL><IMG 
-		alt=无新帖的版块 
-		src="<%=path %>/images/forum.gif">无新帖的版块</LABEL></DIV></div>
+		alt=没有新帖的版块 
+		src="<%=path %>/images/forum.gif">没有新帖的版块</LABEL></DIV></div>
 		
 		<jsp:include page="incButtom.jsp"/>
   </body>
